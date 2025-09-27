@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+@import "swiper/css";
+
+@theme {
+  --color-brand-50: #f5f7ff;
+  --color-brand-100: #eef2ff;
+  --color-brand-500: #5b7cff;
+  --color-brand-600: #4d69e6;
+  --color-brand-700: #3f56c7;
+
+  --font-sans: "Vazirmatn", system-ui, "Segoe UI", "Tahoma", "Arial";
+  --shadow-float: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  box-sizing: border-box;
+}
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
